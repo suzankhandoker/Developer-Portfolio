@@ -7,14 +7,19 @@ h1 {
     font-size: 50px;
 }
 
-#sk {
+h2 {
+    font-size: 40px;
+}
+
+.sk {
     color: orange;
 }
 
-section {
+.flexible {
     display: flex;
     margin-bottom: 60px;
 }
+
 
 .half-width {
     width: 50%;
@@ -44,8 +49,29 @@ section {
     background-repeat: no-repeat;
 }
 
+.experiance {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .dream {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.slogan {
+    color: orange;
+}
+
+.experiance-item {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    padding-left: 4%;
+    padding-right: 4%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border-left: 6px solid orange;
 }
